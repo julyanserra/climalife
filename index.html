@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+
+#body{
+    background-color:#F5FFFA;
+}
+
+.logo{
+    text-align:center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+#down_arrow{
+    opacity: .4;
+}
+
+#footer{
+    background-color: #3F3F3F;
+}
+
+.page-footer{
+    color:#F5FFFA;
+    text-align: center;
+}
+
+</style>
 <head>
     <link rel="shortcut icon" href="images/climalife.ico"/>	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>clima.life</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>  
 </head>
 
-<body>
+<body id="body">
 	<div class="navbar-header">
 		<div class="navbar-brand" href="#">
-			<img class="center-block" src="images/logo-word-small-ret.png" width='100px' height='36px'/>
+			<img class="center-block" src="assets/images/logo-word-small-ret.png" width='100px' height='36px'/>
 		</div>
 	</div>
 
 	<div class="collapse navbar-collapse" id="navbar">
 		<ul class="nav navbar-nav navbar-right">
 		    <li >
-            	<a href="es/index.html">ES</a>
+            	<!-- <a href="es/index.html">ES</a> -->
             </li>
         </ul>
 	</div>
 	<div style="text-align: center;">	
-        <div style="text-align: center; ">
-            <div style="text-align: center; padding-top:110px; padding-bottom:100px;"">
-              	<img class="center-block" src="images/climalife2.png" width='180' height='300' onmouseover="this.src='images/climalife2-color.png';" onmouseout="this.src='images/climalife2.png';" />
+        <div style="text-align: center;">
+            <div class="logo">
+              	<img class="center-block" src="assets/images/climalife2.png" width='180' height='300' onmouseover="this.src='assets/images/climalife2-color.png';" onmouseout="this.src='assets/images/climalife2.png';" />
 		 		<h1>Our Climate is Changing</h1>
                	Anthropogenic climate change is a reality<br>
                	We need to fix it, now!
 
+                </div>
+                    <a class="arrow" href="#footer"><img class="center-block" id="down_arrow" src="assets/images/downarrow.png" width='70' height='70'/></a>
+                </div>
             </div>
-
-
-
-            <hr>
-            <div>
-		        This site is under construction and will be up and running soon!
-		    </div>
 	    </div>
-	    
-		<!-- Footer -->
-	    <footer class="page-footer">
-	    
+
+        <div>
+            <!-- new stuff -->
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="page-footer" id="footer">
+	       <hr>
+           <div>
+                This site is under construction and will be up and running soon!
+            </div>
 	        <!-- Copyright etc -->
 	        <div class="small-print">
 	        	<div class="container">
